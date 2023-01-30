@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Migthy Ducks Hockey League</title>
+    <title>Migthy Ducks Hockey League</title> 
+    <link rel="stylesheet" href="website_designfree.css">
+    <!--    
+    <link rel="stylesheet" href="website_design1.css"> 
+    <link rel="stylesheet" href="website_design2.css"> 
+    
+    -->
 </head>
 <body>
-    <img src="logo.png" alt="LogoHockey" id="LogoHockey" width="80" height="80" style="float: left">   
-    <header>
+    <header id="headerhome">
         <h1> <i>Mighty Ducks Hockey League</i> </h1>
     </header>
-    <nav>
-        <div>
-            <a href="./home.html"> Home </a> 
-            <span style="font-family: 'Roboto Mono', monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; color: var(--gray85);">│</span>
-            <a href="./about_mdhl.html"> About MDHL </a>
-            <span style="font-family: 'Roboto Mono', monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; color: var(--gray85);">│</span>
-            <a href="./contact.html"> contact </a>
-        </div> 
-    </nav>
-    <main> <img src="hockey_1.jpg" alt="jugadorhockey" id="imagenjugadorhockey1" width="80" height="80" style="float: left">
-         <h2>Upcoming Events</h2> 
-         <section>     
-            <h3>August 4</h3>
-            <p>  MDSL Fundraiser</p>
+    <img id= "logo" src="logo.png" alt="LogoHockey" >  
+    <main> 
+        <h2>Upcoming Events</h2>  
+        <div id="partenav">
+        <nav>
+            <a id="botonhome" href="#"> Home </a> 
+            <a id="boton" href="./about_mdhl.html"> About MDHL </a>
+            <a id="boton" href="./contact.html"> Contact </a>
+        </nav> 
+        </div>
+        <div id="partesections">    
+        <section>     
+                <h3>August 4</h3>
+                <p>  MDSL Fundraiser</p>
         </section>
         <section> 
-            <h3> August 16</h3>
-            <p> Season Kick-off: Meet the Teams</p>       
+                <h3> August 16</h3>
+                <p> Season Kick-off: Meet the Teams</p>       
         </section>   
         <section>
-            <h3>September 1</h3>
-            <p> First Game of the Season (Check Game Schedule for details)</p>        
-        </section>   
-    </main>
- </body>
+                <h3>September 1</h3>
+                <p> First Game of the Season (Check Game Schedule for details)</p>        
+        </section>
+        </div>
+        <img id=jugador src="hockey_1.jpg" alt="jugadorhockey"> 
+    </main>   
+</body>
 </html>

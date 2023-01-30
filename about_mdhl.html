@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Migthy Ducks Hockey League</title>
+    <link rel="stylesheet" href="website_designfree.css"> 
+    <!--
+    <link rel="stylesheet" href="website_design1.css">
+    <link rel="stylesheet" href="website_design2.css">
+    -->
 </head>
-<body>
-    <img src="logo.png" alt="LogoHockey" id="LogoHockey" width="80" height="80" style="float: left">   
-    <header>
+<body>  
+    <header id="headerabout">
         <h1> <i>Mighty Ducks Hockey League</i> </h1>
     </header>
-    <nav>
-        <div>
-            <a href="./home.html"> Home </a> 
-            <span style="font-family: 'Roboto Mono', monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; color: var(--gray85);">│</span>
-            <a href="./about_mdhl.html"> About MDHL </a>
-            <span style="font-family: 'Roboto Mono', monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; color: var(--gray85);">│</span>
-            <a href="./contact.html"> contact </a>
-        </div> 
-    </nav>
-    <main> <img src="hockey_2.jpg" alt="jugadorhockey2" id="imagenjugadorhockey2" width="80" height="80" style="float: left">
-         <section>     
+    <img id="logo" src="logo.png" alt="LogoHockey"> 
+    <main> 
+        <h2>About MDHL</h2>   
+        <div id="partenav">
+        <nav>
+            <a id=boton href="./home.html"> Home </a> 
+            <a id=botonabout href="#"> About MDHL </a>   
+            <a id=boton href="./contact.html"> Contact </a>
+        </nav>
+        </div>
+        <div id="partesections">
+        <section>     
             <h3>Mision</h3>
             <p>  To support young athletes living Chicago's northside neighborhood, who have an interest in 
                 learning and playing soccer, with opportunities to learn and practice skills related to the game of 
@@ -39,7 +44,9 @@
                     member of MDHL, you must be between the ages of 4 - 12 and reside a Chicago northside 
                     neighborhood. MDHL ran by o small full-time staff, and relies on the generous volunteer time of 
                     parents and previous league members</p>
-        </section>   
+        </section> 
+        </div> 
+        <img id="jugador" src="hockey_2.jpg" alt="jugadorhockey2">
     </main>
  </body>
 </html>
