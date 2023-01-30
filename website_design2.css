@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#headerhome {
+    background-image: url(design1_image1.jpg) ;
+    background-position: center;
+    height: 350px;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 70px;
+    border-top: 5px solid #ff291a;
+    border-left: 5px solid #ff291a;
+    border-right: 5px solid #ff291a;
+}
+
+#headerabout {
+    background-image: url(design1_image2.jpg) ;
+    background-position: center;
+    height: 350px;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 70px;
+    border-top: 5px solid #ff291a;
+    border-left: 5px solid #ff291a;
+    border-right: 5px solid #ff291a;
+}
+
+h1 {
+    padding: 0px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 0px #FCFF1A;
+    position: absolute;
+    top: 0px;
+}
+
+
+h2 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-shadow: 2px 2px 0px #FCFF1A; 
+    text-align: center;
+    display: block;
+    border: 5px solid #ff291a;
+}
+
+#logo {
+    height: 100px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 30px;
+    position:absolute;
+    left: 30px;
+    top: 500px;
+    border: 5px solid #fbff14;
+}
+
+#boton{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(64, 121, 245);
+    text-decoration: none;
+}
+
+#botonhome,#botonabout,#botoncontact{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(44, 187, 8);
+    text-decoration: none;
+}
+
+nav{ 
+    position:absolute;
+    top: 60px;
+    right: 30px; 
+}
+
+
+#partesections {
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 600px;
+}
+
+section{
+    margin: 10px;
+}
+h3 {
+    font-size: 20px;
+    font-family:cursive;
+    color: black;
+}
+
+#jugador {
+    height:300px;
+    position:absolute;
+    right:30px;
+    top: 500px;
+    display: inline;
+    border-radius: 20px;
+    border: 5px solid #ffa114;
+}
+
